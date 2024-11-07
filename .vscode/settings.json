@@ -1,5 +1,7 @@
 {
-    // Required in vscode-eslint < v3.0.10 only
-    "eslint.useFlatConfig": true
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "eslint.useFlatConfig": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
   }
-  
+}

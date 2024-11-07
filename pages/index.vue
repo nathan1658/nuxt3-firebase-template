@@ -1,5 +1,8 @@
 <template>
-  <VContainer><BaseCard>Hello world</BaseCard></VContainer>
+  <VContainer>
+    <LanguageSelectBox />
+    <BaseCard>{{ $t("helloWorld") }}</BaseCard>
+  </VContainer>
 </template>
 
 <script setup lang="ts"></script>
