@@ -20,6 +20,20 @@ yarn install
 bun install
 ```
 
+### Example .env file
+
+```
+GOOGLE_APPLICATION_CREDENTIALS=service-account.json
+FIREBASE_API_KEY=xxxxxxxxxxxx
+FIREBASE_AUTH_DOMAIN=xxxxxxxxxxxx
+FIREBASE_PROJECT_ID=xxxxxxxxxxxx
+FIREBASE_STORAGE_BUCKET=xxxxxxxxxxxx
+FIREBASE_MESSAGING_SENDER_ID=xxxxxxxxxxxx
+FIREBASE_APP_ID=xxxxxxxxxxxx
+FIREBASE_MEASUREMENT_ID=xxxxxxxxxxxx
+GOOGLE_MAPS_API_KEY=xxxxxxxxxxxx
+```
+
 ## Development Server
 
 Start the development server on `http://localhost:3000`:
