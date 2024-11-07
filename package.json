@@ -20,6 +20,7 @@
   "devDependencies": {
     "@nuxtjs/i18n": "^9.0.0",
     "@pinia/nuxt": "^0.5.5",
-    "@vueuse/nuxt": "^11.2.0"
+    "@vueuse/nuxt": "^11.2.0",
+    "vuetify-nuxt-module": "^0.18.3"
   }
 }
