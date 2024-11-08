@@ -87,3 +87,23 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+# Deployment
+
+https://nuxt.com/deploy/firebase
+
+Example firebase.json file
+
+```
+{
+  "functions": { "source": ".output/server" },
+  "hosting": [
+    {
+      "site": "<PROJECT_ID>",
+      "public": ".output/public",
+      "cleanUrls": true,
+      "rewrites": [{ "source": "**", "function": "server" }]
+    }
+  ]
+}
+```
