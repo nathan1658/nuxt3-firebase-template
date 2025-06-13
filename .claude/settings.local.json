@@ -1,0 +1,6 @@
+{
+  "permissions": {
+    "allow": ["Bash(git add:*)", "Bash(npx lint-staged:*)", "Bash(mkdir:*)", "Bash(pnpm build:*)"],
+    "deny": []
+  }
+}

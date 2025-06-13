@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "deploy:firebase": "pnpm i && pnpm run build --preset=firebase && firebase deploy --only functions:server,hosting",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "@firebase/app-types": "^0.9.2",
