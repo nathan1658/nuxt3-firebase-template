@@ -13,6 +13,11 @@ export default defineNuxtConfig({
       },
     },
   },
+  runtimeConfig: {
+    mongodbUri: process.env.MONGODB_URI,
+    redisUri: process.env.REDIS_URI,
+    redisPassword: process.env.REDIS_PASSWORD,
+  },
   devtools: {
     enabled: true,
   },
