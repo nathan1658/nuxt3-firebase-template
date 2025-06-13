@@ -1,12 +1,6 @@
-import withNuxt from './.nuxt/eslint.config.mjs'
+import withNuxt from "./.nuxt/eslint.config.mjs";
 
 export default withNuxt({
-  // files: ["**/*.ts", "**/*.vue"],
-  // languageOptions: {
-  //   parserOptions: {
-  //     ecmaVersion: 2022,
-  //   },
-  // },
   rules: {
     "vue/valid-v-slot": [
       "error",
@@ -23,4 +17,4 @@ export default withNuxt({
       },
     ],
   },
-})
+});

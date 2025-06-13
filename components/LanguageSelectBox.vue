@@ -10,7 +10,7 @@
             class="border rounded"
             variant="text"
             size="small"
-          ></VBtn>
+          />
         </template>
 
         <VList density="compact">
@@ -35,8 +35,8 @@ const { locale, locales, setLocale, setLocaleCookie } = useI18n();
 
 withDefaults(
   defineProps<{
-    alwaysFullWidth: boolean;
-    fontSize: string;
+    alwaysFullWidth?: boolean;
+    fontSize?: string;
   }>(),
   {
     alwaysFullWidth: false,

@@ -7,6 +7,6 @@ const schema = {
 
 export type i18nSchema = typeof schema;
 
-export default defineI18nLocale<i18nSchema>(async locale => {
+export default defineI18nLocale<i18nSchema>(async () => {
   return schema;
 });
